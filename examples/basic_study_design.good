@@ -1,0 +1,96 @@
+{
+    "templateType": "compound",
+    "fileName": "basic_study_design.json",
+    "name": "basic_study_design",
+    "schemaVersion": "3.36",
+    "validationLevel": "1",
+    "study": {
+      "userDefinedId": "TestStudy2000",
+      "briefTitle": "TestStudy2000 Brief Title",
+      "officialTitle": "TestStudy2000 Official Title",
+      "description": "TestStudy2000 Full Description",
+      "briefDescription": "TestStudy2000 Brief Description",
+      "interventionAgent": "Agent 2000",
+      "endpoints": "Endpoint 2000",
+      "sponsoringOrganization": "School of Hard Knocks",
+      "ageUnit": "Years",
+      "actualStartDate": "01-Jan-2024",
+      "hypothesis": "TestStudy2000 Hypothesis",
+      "objectives": "TestStudy2000 Objectives",
+      "targetEnrollment": 2000,
+      "minimumAge": "10",
+      "maximumAge": "60"
+    },
+    "studyCategorization": { 
+      "researchFocus": "Development"
+    },
+    "study2ConditionOrDisease": [
+      { "conditionReported": "anemia" },
+      { "conditionReported": "Angina" }
+    ],
+    "armOrCohort": [
+      { "userDefinedId": "TestStudyArm2000A", 
+        "typeReported": "Experimental Arm",
+        "name": "Arm2000A",
+        "description": "Arm2000A Description"
+      },
+      { "userDefinedId": "TestStudyArm2000B", 
+        "typeReported": "Healthy Control",
+        "name": "Arm2000B",
+        "description": "Arm2000B Description"
+      }
+    ],
+    "inclusionExclusion": [
+      {
+        "userDefinedId": "inclusion_2000",
+        "criterion": "Good Health",
+        "criterionCategory": "Exclusion"
+      }
+    ],
+    "studyPersonnel": [
+      {
+        "userDefinedId": "PP2000",
+        "honorific": "Dr.",
+        "firstName": "Wilma",
+        "lastName": "Flinston",
+        "suffixes": "test",
+        "organization": "HIPC",
+        "orcidId": "2000",
+        "email": "gg@fdhj.com",
+        "titleInStudy": "Investigator",
+        "roleInStudy": "Site Manager",
+        "siteName": "Chicago"
+      }
+    ],
+    "plannedVisit": [
+      {
+        "userDefinedId": "PlannedVisit_2000",
+        "name": "Planned Visit 2000",
+        "orderNumber": 1,
+        "minStartDay": 1,
+        "maxStartDay": 10
+      }
+    ],
+    "study2Protocol": [
+      { "protocolId": "PROT_2000" }
+    ],
+    "studyFile": [
+      {
+        "fileName": "StudyFile_2000.txt",
+        "description": "Demographics",
+        "studyFileType": "Study Data"
+      }
+    ],
+    "studyLink": [
+      {
+        "name": "ClinicTrials.gov",
+        "type": "Web Address",
+        "value": "http://clinicaltrials.gov/ct2/show/NCT00078195"
+      }
+    ],
+    "studyPubmed": [
+      {
+        "pubmedId": "17631952"
+      }
+    ]
+}
